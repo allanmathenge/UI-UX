@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+A website header is usually the top section of a webpage that contains the logo, navigation menu, a call to action and optionally a search form.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A header is highly customizable and can hold other types of content. Headers can also be vertical.
 
-## Available Scripts
 
-In the project directory, you can run:
+# Hero section
+A hero is the area immediately below or next to the header. Because this is positioned above the fold, it is considered prime real-estate so it displays critical information like the brand offering, benefits for working with the brand and call-to-action.
 
-### `npm start`
+In UI design, a button is a fundamental interactive element that serve as a middleman between the user and the product or service.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# BUTTONS
+Clickable and easy to find. Padding left and right is twice top and bottom. Viewable button and shadow and size. The human finger is larger than a cursor. Tell the user what the button does.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Different states of a button.
 
-### `npm test`
+# Disabled - Create tone for the button.
+# Hover - Increase the distance between the words "send" and icons subtracted from the padding - reduce padding by half. The button stays under the same dimensions
+# onClick - decrease opacity
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Definition and use cases for image galleries
+An Image gallery is a way of displaying a collection of images while allowing users to see several items at once.
 
-### `npm run build`
+A background of an image should match part of its color.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# DEFINITION AND USE CASES FOR FOOTER
+A website's footer is an area positioned at the bottom of every page on a website, right below the main content. Contain information that help in the usability of the website eg, nav menu and call-to-action, socials. Site map-list of pages on your website. Footers also contain copyright texts, external links and sitemaps.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Testimonials
+Are nice things the customers have to say to establish credibility. Do not use fake testimonials. Fake testimonials are unethical, manipulative and illegal.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Definition and use cases for tabs
+A tab control is a UI element where content is separated into different panels, with only one panel visible at a time. The hidden panels can then be accessed by user interaction.
 
-### `npm run eject`
+# DEFINITION AND USE FOR ACCORDIONS
+Unlike tabs, accordions can display multiple panels at once and they are used for simpler content like text.
+Accordions are heavily used in FAQ's (Frequently Asked Questions);
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Definition and use cases for CONTACT FORMS
+Its a web form people use to contact us.
+Keep your contact form simple so that your potential clients can easily get in touch.
+As a minimum, a contact form should require a name, an email address and the message
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# RESPONSIVE WEB DESIGN
+Use ranges
+use different type scales for different responsive designs
+Reduce white spaces
