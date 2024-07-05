@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+import { BsTwitterX } from "react-icons/bs";
+import { FiFacebook } from "react-icons/fi";
+import { IoLogoGithub, IoIosMenu } from "react-icons/io";
 
 const Menu = () => {
     const [ activeClass, setActiveClass] = useState("");
@@ -37,6 +40,13 @@ const Menu = () => {
                 <li>
                     <Link to="/contact">Contact</Link>
                 </li>
+                <div className="ham-menu-socials">
+                    <div className="ham-menu-social-icons">
+                    <BsTwitterX />
+                    <FiFacebook />
+                    <IoLogoGithub />
+                    </div>
+                </div>
             </ul>
         </div>
     </nav>
