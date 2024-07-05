@@ -16,13 +16,13 @@ const ContactForm = () => {
         <div className="form-labels">
           <label>
             Your name
-            <input type="text" name="name" placeholder="Your name" required />
           </label>
+          <input type="text" name="name" placeholder="Your name" required />
 
           <label>
             Your email
-            <input type="text" name="email" placeholder="Your email" required />
           </label>
+            <input type="text" name="email" placeholder="Your email" required />
         </div>
 
           <label>
@@ -33,13 +33,13 @@ const ContactForm = () => {
       <div className="form-labels">
         <label>
           Your budget
-          <input type="text" name="bdget" placeholder="Your budget" required />
         </label>
+          <input type="text" name="bdget" placeholder="Your budget" required />
 
         <label>
           Your timeline
-          <input type="text" name="budget" placeholder="Your timeline" required />
         </label>
+          <input type="text" name="budget" placeholder="Your timeline" required />
       </div>
         <button className="contact-button" type="submit">Submit</button>
     </form>

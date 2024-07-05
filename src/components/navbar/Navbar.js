@@ -1,8 +1,9 @@
 import React from 'react';
+import Menu from "../menu/Menu";
 import { Link } from "react-router-dom";
 import { BsTwitterX } from "react-icons/bs";
 import { FiFacebook } from "react-icons/fi";
-import { IoLogoGithub } from "react-icons/io";
+import { IoLogoGithub, IoIosMenu } from "react-icons/io";
 import { MdLaptopMac } from "react-icons/md";
 import { CiSearch } from "react-icons/ci";
 
@@ -31,23 +32,24 @@ const Navbar = () => {
                     </li>
                 </ul>
             </div>
-
+            <div className="nav-input">
+                <input 
+                    type="text" 
+                    placeholder="Search..."
+                    className="search-nav-input"
+                />
+                <CiSearch className="search-icon" />
+            </div>
             <div className="search-socials">
-                <div className="input">
-                    <input 
-                        type="text" 
-                        placeholder="Search..."
-                        className="search-input"
-                    />
-                        <CiSearch className="search-icon" />
-                </div>
                 <div className="socials">
                     <BsTwitterX />
                     <FiFacebook />
                     <IoLogoGithub />
                 </div>
             </div>
-
+            <div className="menu-icon">
+                <Menu />
+            </div>
         </div>
     </div>
   )

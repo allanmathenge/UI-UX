@@ -44,3 +44,23 @@ As a minimum, a contact form should require a name, an email address and the mes
 Use ranges
 use different type scales for different responsive designs
 Reduce white spaces
+Without compromising  the content readability
+
+# MAKING A COMPONENT RESPONSIVE - How to make tabs responsive
+You can replace the words with icons instead of texts
+When screens get really small we substitute icons with texts
+
+# PROTOTYPING - A prototype allows you to link between screens and demonstrate how the website will function before the actual development has started.
+
+RESPONSIVENESS AND BREAKING POINTS
+-margin-inline: auto; resets the component to the left and right
+-max-width: the component goes to a specific max-width and then breaks
+
+# GRIDS
+.grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-column: 
+        repeat(auto-fit, minmax(250px, 1fr))
+    ;
+}
